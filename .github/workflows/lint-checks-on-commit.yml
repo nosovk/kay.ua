@@ -1,8 +1,7 @@
 name: Run code quality checks on commit
 'on': push
 jobs:
-  build_and_preview:
-    if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
+  run_checks:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
