@@ -1,17 +1,16 @@
 <script>
+	import logo from '$lib/images/KAY_logo_RGB.png';
+	import construstion_img from '$lib/images/under-construction-icon-14.jpg';
 </script>
 
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="Kay.ua portfolio page" />
+	<meta name="description" content="Kay.ua" />
 </svelte:head>
 
 <section>
-	<h1>Kay.ua</h1>
-
-	<h2>
-		<a href="sanwerk">Sanwerk.ua page</a>
-	</h2>
+	<img src={logo} class="logo" alt="logo kay.ua" />
+	<img src={construstion_img} class="construction" alt="under construstion" />
 </section>
 
 <style>
@@ -22,7 +21,15 @@
 		align-items: center;
 		flex: 0.6;
 	}
-
+	.logo {
+		width: 300px;
+	}
+	.construction{
+		width:300px;
+	}
+	img{
+		max-width: 100%;
+	}
 	h1 {
 		width: 100%;
 	}
