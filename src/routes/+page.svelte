@@ -24,10 +24,10 @@
 	.logo {
 		width: 300px;
 	}
-	.construction{
-		width:300px;
+	.construction {
+		width: 300px;
 	}
-	img{
+	img {
 		max-width: 100%;
 	}
 	h1 {
