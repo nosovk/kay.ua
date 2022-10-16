@@ -1,6 +1,6 @@
 <script>
 	import logo from '$lib/images/KAY_logo_RGB.png';
-	import construstion_img from '$lib/images/under-construction-icon-14.jpg';
+	import construstion_img from '$lib/images/under_construction_PNG59.png';
 </script>
 
 <svelte:head>
@@ -11,6 +11,11 @@
 <section>
 	<img src={logo} class="logo" alt="logo kay.ua" />
 	<img src={construstion_img} class="construction" alt="under construstion" />
+	<div class="contacts">
+		<div>Please contact:</div>
+		<div>Email: <a href="mailto:kaymydoors@gmail.com">kaymydoors@gmail.com</a></div>
+		<div>Phone: <a href="tel:+380500508338">+ 38 050 050 8338</a></div>
+	</div>
 </section>
 
 <style>
@@ -20,6 +25,9 @@
 		justify-content: center;
 		align-items: center;
 		flex: 0.6;
+	}
+	.contacts {
+		padding-top: 20px;
 	}
 	.logo {
 		width: 300px;
