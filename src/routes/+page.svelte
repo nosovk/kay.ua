@@ -1,11 +1,13 @@
 <script>
 	import logo from '$lib/images/KAY_logo_RGB.png';
 	import construstion_img from '$lib/images/under_construction_PNG59.png';
+	import favicon from '$lib/images/Favicon_kay.png';
 </script>
 
 <svelte:head>
 	<title>Home</title>
 	<meta name="description" content="Kay.ua" />
+	<link rel="icon" type="image/x-icon" href={favicon} />
 </svelte:head>
 
 <section>
@@ -28,6 +30,8 @@
 	}
 	.contacts {
 		padding-top: 20px;
+		font-size: 14px;
+		text-align: center;
 	}
 	.logo {
 		width: 300px;
