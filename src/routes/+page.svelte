@@ -1,7 +1,7 @@
 <script>
 	import logo from '$lib/images/KAY_logo_RGB.png';
 	import construstion_img from '$lib/images/under_construction_PNG59.png';
-	import favicon from '$lib/images/Favicon_kay.png';
+	import favicon from '$lib/images/favicon.png';
 </script>
 
 <svelte:head>
